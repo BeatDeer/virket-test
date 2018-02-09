@@ -1,0 +1,205 @@
+$icon-font-path: '../fonts/';
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+.pointer{
+  cursor: pointer;
+}
+a:hover, a:focus{text-decoration: none !important; }
+.pointer{
+  cursor: pointer;
+}
+.wrapper{
+  margin: auto 10px;
+}
+.navbar{
+  background-color: #303552;
+  color: white;
+  margin-bottom: 0px !important;
+}
+.nopadding{
+  padding: 0 !important;
+}
+button.ham-btn{
+  background-color: #08C3A3 !important;
+  padding: 5px !important;
+  border-radius: 0 !important;
+}
+.pull-left {
+  margin-left: 10px;
+}
+.mobile-menu{
+  li{
+    display: inline-block;
+  }
+}
+.back-menu{
+  text-align: left;
+  span.glyphicon {
+    font-size: 20px;
+  }
+}
+.title-menu{
+  text-align: center;
+  span{
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: linear-gradient(to right, #BFE57B , #00BA9E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.btns-menu{
+  text-align: right;
+  span.glyphicon {
+    font-size: 22px;
+    margin-left: 5px;
+  }
+}
+.navbar-toggle {
+  .icon-bar{
+    background-color: #323652 !important;
+    + .icon-bar{
+      margin-top: 6px !important;
+    }
+  }
+}
+.navbar-collapse{
+  background:#2A2F48;
+  ul.nav{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    li{
+      a{
+        color: white !important;
+        border-bottom: 1px solid lightgray;
+      }
+      a:hover{
+        background-color: #08C3A3;
+      }
+    }
+    li.active{
+      background-color: #08C3A3;
+      a{
+        color:white;
+      background-color: #08C3A3;
+      }
+    }
+  }
+}
+.panel-group .panel + .panel{
+  margin-top: 0px !important;
+}
+.panel-heading{
+  .panel-title{
+    a{
+      text-transform: uppercase;
+      color:black;
+      .switch-collapse{
+        color: #00C2A8;
+      }
+    }
+  }
+}
+.panel-heading.active{
+    background-color: #00C2A8 !important;
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+  a{
+    color: white !important;
+    -webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+    .switch-collapse{
+      color: #fff;
+    }
+  }
+}
+.panel-body{
+  color: white;
+  background: rgba(11,206,70,1);
+  background: -moz-linear-gradient(left, rgba(11,206,70,1) 0%, rgba(2,184,160,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(11,206,70,1)), color-stop(100%, rgba(2,184,160,1)));
+  background: -webkit-linear-gradient(left, rgba(11,206,70,1) 0%, rgba(2,184,160,1) 100%);
+  background: -o-linear-gradient(left, rgba(11,206,70,1) 0%, rgba(2,184,160,1) 100%);
+  background: -ms-linear-gradient(left, rgba(11,206,70,1) 0%, rgba(2,184,160,1) 100%);
+  background: linear-gradient(to right, rgba(11,206,70,1) 0%, rgba(2,184,160,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0bce46', endColorstr='#02b8a0', GradientType=1 );
+  .panel-inner{
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+}
+.hero{
+  text-align: center;
+  margin: auto auto 20px auto;
+  .title{
+    color: #3DD481;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .description{
+    font-size: 12px;
+  }
+}
+.legend_div, .chart_div{
+  padding: 0 15px !important;
+}
+.chartjsLegendNow, .chartjsLegendTraffic {
+  text-align: left;
+  ul{
+    padding: 0 0 0 10px !important;
+    li {
+      list-style: none !important;
+      span {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+#now-Chart{
+  padding: 0 10%;
+}
+.chartjsLegendNow{
+  text-align: center;
+  font-size: 1rem;
+  margin-top:30px;
+  ul{
+    li{
+      display: inline-block;
+      margin: 5px 0 0 2px;
+      text-transform: uppercase;
+    }
+  }
+}
+.panel-collapse .panel-body{
+  text-align: center;
+  h3.now-title{
+    margin: 0 !important;
+  }
+  p.now-number{
+    font-size: 70px;
+    margin: -10px !important;
+  }
+}
+// Responsive Media Queries
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+}

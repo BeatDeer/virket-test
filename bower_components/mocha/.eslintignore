@@ -1,0 +1,4 @@
+coverage/
+mocha.js
+*.fixture.js
+docs/
